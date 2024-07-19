@@ -1,0 +1,135 @@
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    align-items: center;
+    background: linear-gradient(to right, #1E2F97, dodgerblue);
+    color: #fff;
+    justify-content: space-between;
+    transition: background-color 2s ease-out 100ms;
+    grid-area: navbar;
+    width: 100%;
+}
+
+ul{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    display: flex;
+    list-style: none;
+}
+
+ul li
+{
+    margin: 0 20px;    
+}
+
+a.img1{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 4px;
+}
+
+ul li a{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    height: 100%;
+    padding: 8px 4px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+ 
+a:hover, a.active
+{
+    background-color: white;
+    color: black;
+    height: 100%;
+    transition: all .5s ease ;
+}
+#toggle{
+    display: none;
+}
+.togglearea{
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+.togglearea label
+{
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.togglearea label span
+{
+   background-color: black;
+   height: 4px;
+   width: 80%;
+   margin: 2px 0px;
+   border-radius: 10px;
+}
+.togglearea{
+    display: none;
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 18px 0 30px;
+    font-size: 13px;
+    line-height: 14px;
+    transition: background-color 2s ease-out 100ms;
+    display: flex;
+    justify-content: space-around;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.navdiv{
+    display: flex;
+}
+
+@media screen and (max-width: 544px){
+    .navbar
+    {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+    }
+    #toggle:checked + .navbar
+    {
+        display: flex;
+    }
+    .togglearea{
+        display: flex;
+    }
+    .navbar a:hover
+    {
+    background-color: white;
+    color: black;
+    }
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            HACKATHON
+        </title>
+        <style>
+            body{
+                background-image: url('hackathon.webp');
+                background-size:cover;
+                background-attachment: fixed;
+                background-position: center center;
+                overflow-x:hidden;
+                overflow-y: scroll;
+                width: 100%;
+                
+                background-attachment: fixed;
+         
+               
+                
+            
+            
+            background-repeat: no-repeat;
+            }
+            #HACKATHON{
+                text-align: center;
+                font-family:cursive;
+                
+                padding: 25px;
+                font-size: 60px;
+                font-weight: 400;
+                
+                
+                color: #fff;
+  text-shadow: -0.1rem -0.1rem 0.5rem #fff,
+    0.1rem 0.1rem 0.5rem #fff,
+    0 0 1rem #ff2c00,
+    0 0 2rem #ff2c00,
+    0 0 3rem #ff2c00,
+    0 0 4rem #ff2c00,
+    0 0 5rem #ff2c00;
+    
+}
+
+  
+                
+
+
+            
+            @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,900);
+
+*{box-sizing: border-box;}
+body, html { height: 100%; min-height: 100%; }
+body {
+
+transform-style: preserve-3d;
+transform: perspective(800px);
+font-family: 'Lato', sans-serif;
+padding:1rem;
+}
+
+
+.product-rating {
+  padding: 10 20px;
+  font-size: 18px;
+}
+
+#card-container{
+   width: 400px;
+   height: 350px;
+   position:relative;
+   
+   margin: -175px 0 0 -175px;
+}
+#card{
+   
+   color:#fff;
+   padding: 10px;
+   width: 800px;;
+   height:68%;
+   position: fixed;
+   z-index:1;
+   align-content: center;
+background:url('card-background.jpg');
+background-size: cover;
+    box-shadow: 0px 1px 10px 2px rgba(0,0,0,0.69);
+    object-fit: fill;
+    max-width: 120%;
+    margin: 0 auto;
+    top: 30%;
+    left: 25%;
+   
+}
+
+#card .text-block{position:relative;z-index:2;text-shadow: 0px 3px 10px rgba(0, 0, 0, .7)}
+
+
+#card .text-block button{border:4px solid #caef29; color:#cfd2c3; padding:10px; background:transparent;font-family: 'Rubik', sans-serif;text-transform:uppercase; font-weight:700; cursor:pointer;}
+#card .text-block button:hover{background:transparent; color:#caef29; border:4px solid #fff;text-decoration-color: #fff;}
+
+
+
+.shine {
+position: absolute;
+top: 0; left: 0; right: 0; bottom: 0;
+background: linear-gradient(90deg, rgba(0,0,0,.4) 0%,rgba(0,0,0,.2) 60%);
+z-index: 1;
+}
+button{color:#fff;}
+
+
+
+.meg_title{
+  color: #caef29;
+}
+.date{
+    width:30px;
+  height:30px;
+  
+  
+}
+
+.border-gradient {
+  background-image: linear-gradient(deepskyblue, mediumblue);
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.border-gradient::before {
+  content: "";
+  display: block;
+  
+  position: absolute;
+  border-radius: calc(20px - 2%);
+  top: 2%;
+  left: 2%;
+  height: 96%;
+  width: 96%;
+  z-index: -1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image:url('overlay-gif.webp') ;
+  background-position: center center;
+                overflow-x:hidden;
+                overflow-y: scroll;
+                width: 100%;
+                background-size: cover;
+            background-attachment: fixed;
+            
+            background-repeat: no-repeat;
+  overflow: hidden;
+  width: 0;
+  height: 70%;
+  transition: .7s ease;
+  
+	float: left;
+	
+	
+	
+	overflow-y: scroll;
+	
+}
+
+.ff1:hover .overlay {
+  width: 100%;
+  height: 100%;
+ 
+} 
+
+
+
+.force-overflow
+{
+	min-height: 450px;
+  padding-left: 10px;
+} 
+.desp{
+  padding-right: 40%;
+  padding-top: 7%;
+}
+
+
+
+    
+    
+
+
+
+
+        </style>
+    
+    </head>
+    <body>
+       
+            <div>
+                <h1 id="HACKATHON"><u>HACKATHON</u></h1>
+            </div>
+            <div class="container" id="card-container" data-offset="2">
+                 
+                <div class="box border-gradient" id="card">
+                <div class="shine"></div>
+                <div class="text-block">
+                <br><br>
+                <p>
+                <h3 style="color: #caef29;">Prize pool: </h3>
+
+                               <h3 style="color: #caef29;">Date:<small>17 March 2023</small></h3>
+                    
+                    <h3 style="color:#caef29;">Time:<small>2:30pm-5:00pm</small></h3>
+                    <h3 style="color: #caef29;">Venue:<small>IT Department</small></h3>
+                    
+                    
+                 
+               </p>
+               <div class="desp">
+               <p class="des">
+               <h3 style="color: #caef29;">Description</h3>
+               Hackathon is a software-based competition that challenges participants to solve a series of real-life problems and puzzles. The competition is typically held over a period of 36 hours continuous and is open to team of 3-4 members.
+
+               </p>
+               </div>
+               <div class="ff1"><button>Explore</button>
+               
+               
+               
+                <div class="overlay">
+                  
+                    <div class="force-overflow">
+                  <h4><u>Requirments</u></h4>
+                  <ul>
+                    <li>Open Space</li><br>
+                    <li>Chamera</li><br>
+                    <li>Peumatics</li><br>
+                    <li>Hydreolics</li><br>
+                  </ul>
+                  <h4><u>Rules</u></h4>
+                  <ul>
+                    <li>The competition will be played on a knockout basis.</li><br>
+                    <li>The bot will be inspected for safety before the event begins. If found to be unsafe for the participants or spectators, it will be discarded.</li><br>
+                    <li>	The organisers reserve the right to change any or all of the rules as they deem fit. Changes in rules, if any, will be announced at the time of the event.
+                    </li><br><li>A violation of any of the rules will result in immediate disqualification
+                      </li><br>
+                      <li>	The maximum time limit for the clash of combatants inside the arena is 10 minutes. (four minutes round, one minute break, four minutes round, two minutes round)</li><br>
+                      <li>A bot will be declared immobile (out) if it cannot exhibit linear motion of at least one inch within 30 seconds. A bot with one side of its drive train disabled will not be counted out if it can demonstrate some degree of controlled movement.
+                      </li<br>><li>It includes both offence and defense
+                        </li><br>
+                        <li>	Readymade kits and development boards are allowed.</li><br>
+                        <li>	A bot should be wireless, and it is advised to have two frequencies to operate for wireless bots</li><br>
+                        <li>	Teams that are not ready when called to battle will be considered to have declared a walkover and will receive no points.</li><br>
+                          	<li>The bot cannot be split into two subunits. And the battery should be in the robot.</li><br>
+                          <li>	Damage to the arena will result in an immediate disqualification.</li><br>
+                          
+                          <li>In all cases, the judges' decision will be final and binding.</li><br>
+                  </ul>
+                    
+                  </div>
+                </div>
+                </div>
+              </div>
+             </div>
+             </div>
+            </div>
+    </body>
+</html>

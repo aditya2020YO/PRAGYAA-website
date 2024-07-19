@@ -1,0 +1,96 @@
+body{
+	background-image : url(images/form.jpg);
+	background-color: #1C1816;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-attachment: fixed;
+}
+
+.Box{
+	height: 520px;
+	width: 520px;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-sizing: border-box;
+	margin: auto;
+	top: 50%;
+	transform: translate(0%, 8%);
+	border-radius: 15px;
+	padding: 20px;
+	backdrop-blur: 10px;
+}
+
+h1{
+	background-color: black;
+	color: dodgerblue;
+	border-radius: 10px;
+}
+
+.Box:hover h1{
+	background-color: black;
+}
+
+.msg{
+	margin: 20px;
+	text-align: center;
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    width: 280px;
+    cursor: pointer;
+    color: #0000FF;
+    border: 2px solid green;
+}
+
+#Button , #Button2{
+	height: 40px;
+	width: 160px;
+	border-radius: 10px;
+	background: linear-gradient(to top,dodgerblue,#0000FF);
+	cursor: pointer;
+	color: #FFD700;
+}
+
+
+#Button2{
+	display: none;
+}
+
+#Button:hover{
+	background: linear-gradient(to bottom, dodgerblue,blue);
+}
+
+#Button2:hover{
+	background: linear-gradient(to bottom, dodgerblue,blue);
+}
+
+.QR img{
+	margin: 0px 10px;
+	height: 200px;
+	width: 200px;
+	border:2px solid #0000FF;
+}
+
+::placeholder {
+  color: Blue;
+  opacity: 1; 
+}
+
+input,select:hover{
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 550px){
+
+	.Box{
+	height: 570px;
+	width: auto;
+	}
+
+	#tf{
+		width: auto;
+	}
+}
+
+

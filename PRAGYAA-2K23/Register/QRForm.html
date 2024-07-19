@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pragyaa 2K23</title>
+    <link rel="stylesheet" type="text/css" href="QRForm.css"> 
+    <link rel="stylesheet" type="js" href="QRForm.js"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<!--- //////////////////////////////////////////////////////////////////////// Navbar///////////////////////////////////////////////////////////////////////// -->
+  
+ <!--- //////////////////////////////////////////////////////////////////////// Actual Content///////////////////////////////////////////////////////////////////////// -->
+
+<div class="form-container">
+     <form action="QRForm.php" method="POST">
+          <p><h1>PRAGYAA REGISTRATION FORM 2K23</h1></p><br>
+          <div class="top">
+                  <div class="textfields">
+                       <h2>Tell Us About Yourself</h2><br>
+
+                       <input type="text" name="Name" placeholder="First Name" required="required">
+                       <input type="text" name="Surname" placeholder="Last Name" required="required"><br>
+                       <input type="number" name="Age" placeholder="Enter your Age" required="required">
+                        <select name="Gender" id="Gender" required class="custom-select" style="border:3px solid white;">
+                              <option value="">Select Gender</option>
+                              <option value="Male">Male</option>
+                              <option value="Female">Female</option>
+                        </select>
+                  </div>
+
+                  <div class="textfields">
+                         <h2>More About You</h2><br>
+
+                         <input type="text" name="City" placeholder="City" required="required">
+                         <input type="text" name="District" placeholder="District" required="required"><br>
+                         <input type="text" name="College" placeholder="College Name" required="required">
+                         <select name="Event" id="Event" required class="custom-select" style="border:3px solid white;">
+                              <option value="">Select Event to Enroll</option>
+                              <option value="THE CODING CHAOS">THE CODING CHAOS</option>
+                              <option value="CODE COMBAT">CODE COMBAT</option>
+                              <option value="LAST PROGRAMMER STANDING">LAST PROGRAMMER STANDING</option>
+                              <option value="HACKTHON">HACKTHON</option>
+                              <option value="EXPLORE YOUR INNOVATION">EXPLORE YOUR INNOVATION</option>
+                              <option value="DRING AND GLOW"></option>
+                              <option value="CIRCUITAL DILEMMA">CIRCUITAL DILEMMA</option>
+                              <option value="STYLE YOUR PARTNER">STYLE YOUR PARTNER</option>
+                              <option value="TEXQUIZ">TEXQUIZ</option>
+                              <option value="PAPER PRESENATION">PAPER PRESENATION</option>
+                              <option value="BRIDGE DESIGNING">BRIDGE DESIGNING</option>
+                              <option value="MINIATURE MODEL MAKING">MINIATURE MODEL MAKING</option>
+                              <option value="CLASH OF CONCRETE">CLASH OF CONCRETE</option>
+                              <option value="C VECHICLE">C VECHICLE</option>
+                              <option value="CHEMOBOSS">CHEMOBOSS</option>
+                              <option value="HOLLY QUIZ">HOLLY QUIZ</option>
+                              <option value="FATE GAME">FATE GAME</option>
+                              <option value="MOCK PLACEMENT">MOCK PLACEMENT</option>
+                              <option value="SHARK TANK SGGS">SHARK TANK SGGS</option>
+                              <option value="COLLEGE CAMPUS VLOG">COLLEGE CAMPUS VLOG</option>
+                              <option value=""></option>
+                              <option value=""></option>
+                              <option value=""></option>
+                        </select>
+                  </div>
+          </div>
+
+          <div class="textfields"> 
+                          <h2>How Can We Contact You </h2><br>
+
+                         <input type="email" name="Email" placeholder="Email Address" required="required">
+                         <input type="tel" name="Phone" placeholder="Phone Number" required="required"><br>          
+          </div>
+
+
+
+          <div class="textfields"> 
+                          <h2 style="margin-top: 30px;"> More About Your Team </h2><br>
+
+                         <input type="text" name="Leader" placeholder="Team Leader Name" required="required">
+                         <input type="number" id="num-inputs" name="noTM" placeholder="No of Players in your Team" required="required"><br>
+                         <!--div id="input-container" name="Members" placeholder="Enter Your Team Members Name"></div><br -->     
+                         <input type="textarea" name="Members" placeholder="Enter Your Team Members Names." style="height: 80px; width: 250px">
+          </div>
+
+
+          <div class="textfields"> 
+                         <input type="submit" name="submit" id="btn">           
+          </div>
+     </form>
+
+   <!--  <script>
+       const numInputsInput = document.getElementById('num-inputs');
+        const inputContainer = document.getElementById('input-container');
+
+        numInputsInput.addEventListener('input', (event) => {
+          const numInputs = event.target.value;
+          
+          inputContainer.innerHTML = '';
+       
+          for (let i = 0; i < numInputs; i++) {
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.name = `input-${i+1}`;
+            input.placeholder = "Name of Team Members";
+            
+            inputContainer.appendChild(input);
+          }
+        });
+     </script>-->
+</div>
+<!--- //////////////////////////////////////////////////////////////////////// Footer ///////////////////////////////////////////////////////////////////////// -->
+
+<!--- //////////////////////////////////////////////////////////////////////// Footer Ended ///////////////////////////////////////////////////////////////////////// -->
+</body>
+</html>

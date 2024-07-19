@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;  
+    transition: background-color 2s ease-out 100ms;
+}
+
+html,body{
+  align-items: center;
+  justify-content: center;
+}
+
+body{
+	background-image : url(images/form.jpg);
+	background-color: #1C1816;
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.custom-select {
+  border-radius: 10px;
+}
+
+
+.form-container{
+	margin: 70px 40px;
+	border:2px solid white;
+}
+
+.form-container h1{
+	font-weight: 900;
+	font-size: 50px;
+	color:white;
+	margin: 0px 20%;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+
+.top{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.textfields input{
+	height: 50px;
+	width: auto;
+	padding: 10px;
+	margin: 10px;
+	outline: none;
+	border:3px solid white;
+}
+
+select{
+	border:2px solid white;
+	padding: 10px; 
+	height: 50px; 
+	width: 188px; 
+	margin: 10px;
+}
+
+#btn{
+	height: 50px;
+	width: 200px;
+	border-radius: 5px;
+	background-color: dodgerblue;
+	border: none;
+	font-size: 18px;
+	color: white;
+	margin-bottom: 70px;
+	margin-top: 20px;
+	border-radius: 50px;
+}
+
+textarea{
+	height: 300px; 
+	width: 300px;
+}
+
+select:invalid {
+      border: 1px solid red;
+   }
+
+ select:valid {
+      border: 1px solid green;
+   }
+
+input{
+	border-radius: 10px;
+}
+
+input,select:hover{
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 550px){
+
+.top{
+	display: block;
+}
+
+.form-container h1{
+	font-weight: 900;
+	background-color: #0028FF;
+	margin: 0px 10%;
+	border-radius: 5px;
+	font-size: 28px;
+	margin-top: 40px;
+}
+
+textarea{
+	width: auto;
+	padding: 10px;
+	margin: 10px;
+	outline: none;
+	border:3px solid #FFD700;
+}
+
+}

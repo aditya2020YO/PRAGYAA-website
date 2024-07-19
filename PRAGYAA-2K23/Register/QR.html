@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pragyaaa QR Verification</title>
+        <link rel="stylesheet" type="text/css" href="QR.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+    </head>
+    <body>
+        <div class="Box">
+            <header id="headr">
+                <p>
+                    <h1> Pragyaaa QR Verification</h1>
+                </p>
+            </header>
+            <h4 id="Box">Scan and Pay Respective Event Fees and Enter Transaction ID</h4>
+            <div class="QR" id="QR">
+                <img src="images/QR.jpeg" class="img" id="img">
+            </div>
+            <div>
+                <form action="QR.php" method="POST">
+                    <input
+                        type="text"
+                        name="Transaction"
+                        id="tf"
+                        class="msg"
+                        placeholder="Enter Transaction ID"
+                        required="required"
+                    >
+                    <!-- <input type="file" id="image" name="image" accept="image/*" style="height: 30px; width: all; margin-left: 20px;" required="required"> -->
+                    <br>
+                    <button id="Button2" onclick="takeScreenshot()"> Back to Home</button>
+                    <input
+                        type="submit"
+                        name="button"
+                        class="button"
+                        id="Button"
+                        onclick="GenerateQR()"
+                    >
+                </form>
+            </div>
+        </div>
+        <script>
+		let textField = document.getElementById("tf");
+		let QR = document.getElementById("QR");
+		let imgs = document.getElementById("img");
+		let image = document.getElementById("image");
+		let Button = document.getElementById("Button");
+		let headr = document.getElementById("headr");
+		let Box = document.getElementById("Box");
+		let Button2 = document.getElementById("Button2");
+
+
+		function GenerateQR() {
+		 	imgs.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + textField.value;	
+		 	document.body.style.cursor="pointer";	
+		 	headr.innerHTML = "<p> <h1> Welcome to Pragyaa 2K23 </h1> </p>";
+		 	Box.innerHTML = "<h4>Registration Successful <br> Screenshot & Save the Entry Tickets..</h4>";
+		 	Button.style.display = 'None';
+		 	tf.setAttribute('readonly', true);
+		 	tf.style.display = "None";
+		 	image.style.display = "None";
+		 	Button2.style.display = "block";
+		 	Button2.style.margin = "auto";
+		 	Butto.style.display = "None";
+	    } 
+
+	     function takeScreenshot() {
+		    /*html2canvas(document.body).then(function(canvas) {
+		      var link = document.createElement('a');
+		      link.download = 'screenshot.png';
+		      link.click();  
+    		});*/
+    		window.location.href = "QRForm.html";
+    	}
+        </script>
+    </body>
+</html>

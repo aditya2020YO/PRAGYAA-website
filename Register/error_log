@@ -1,0 +1,224 @@
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "Name" in /home3/pragyhdl/public_html/Register/QR.php on line 5
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "Surname" in /home3/pragyhdl/public_html/Register/QR.php on line 6
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "Age" in /home3/pragyhdl/public_html/Register/QR.php on line 7
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "Gender" in /home3/pragyhdl/public_html/Register/QR.php on line 8
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "City" in /home3/pragyhdl/public_html/Register/QR.php on line 9
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "District" in /home3/pragyhdl/public_html/Register/QR.php on line 10
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "College" in /home3/pragyhdl/public_html/Register/QR.php on line 11
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "Event" in /home3/pragyhdl/public_html/Register/QR.php on line 12
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "Email" in /home3/pragyhdl/public_html/Register/QR.php on line 13
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "Contact" in /home3/pragyhdl/public_html/Register/QR.php on line 14
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "noTM" in /home3/pragyhdl/public_html/Register/QR.php on line 15
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "Leader" in /home3/pragyhdl/public_html/Register/QR.php on line 16
+[15-Apr-2023 02:40:21 UTC] PHP Warning:  Undefined array key "Members" in /home3/pragyhdl/public_html/Register/QR.php on line 17
+[15-Apr-2023 02:40:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "Name" in /home3/pragyhdl/public_html/Register/QR.php on line 5
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "Surname" in /home3/pragyhdl/public_html/Register/QR.php on line 6
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "Age" in /home3/pragyhdl/public_html/Register/QR.php on line 7
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "Gender" in /home3/pragyhdl/public_html/Register/QR.php on line 8
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "City" in /home3/pragyhdl/public_html/Register/QR.php on line 9
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "District" in /home3/pragyhdl/public_html/Register/QR.php on line 10
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "College" in /home3/pragyhdl/public_html/Register/QR.php on line 11
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "Event" in /home3/pragyhdl/public_html/Register/QR.php on line 12
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "Email" in /home3/pragyhdl/public_html/Register/QR.php on line 13
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "Contact" in /home3/pragyhdl/public_html/Register/QR.php on line 14
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "noTM" in /home3/pragyhdl/public_html/Register/QR.php on line 15
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "Leader" in /home3/pragyhdl/public_html/Register/QR.php on line 16
+[15-Apr-2023 02:40:28 UTC] PHP Warning:  Undefined array key "Members" in /home3/pragyhdl/public_html/Register/QR.php on line 17
+[15-Apr-2023 02:40:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "Name" in /home3/pragyhdl/public_html/Register/QR.php on line 5
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "Surname" in /home3/pragyhdl/public_html/Register/QR.php on line 6
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "Age" in /home3/pragyhdl/public_html/Register/QR.php on line 7
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "Gender" in /home3/pragyhdl/public_html/Register/QR.php on line 8
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "City" in /home3/pragyhdl/public_html/Register/QR.php on line 9
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "District" in /home3/pragyhdl/public_html/Register/QR.php on line 10
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "College" in /home3/pragyhdl/public_html/Register/QR.php on line 11
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "Event" in /home3/pragyhdl/public_html/Register/QR.php on line 12
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "Email" in /home3/pragyhdl/public_html/Register/QR.php on line 13
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "Contact" in /home3/pragyhdl/public_html/Register/QR.php on line 14
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "noTM" in /home3/pragyhdl/public_html/Register/QR.php on line 15
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "Leader" in /home3/pragyhdl/public_html/Register/QR.php on line 16
+[15-Apr-2023 02:40:31 UTC] PHP Warning:  Undefined array key "Members" in /home3/pragyhdl/public_html/Register/QR.php on line 17
+[15-Apr-2023 02:40:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "Name" in /home3/pragyhdl/public_html/Register/QR.php on line 5
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "Surname" in /home3/pragyhdl/public_html/Register/QR.php on line 6
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "Age" in /home3/pragyhdl/public_html/Register/QR.php on line 7
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "Gender" in /home3/pragyhdl/public_html/Register/QR.php on line 8
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "City" in /home3/pragyhdl/public_html/Register/QR.php on line 9
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "District" in /home3/pragyhdl/public_html/Register/QR.php on line 10
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "College" in /home3/pragyhdl/public_html/Register/QR.php on line 11
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "Event" in /home3/pragyhdl/public_html/Register/QR.php on line 12
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "Email" in /home3/pragyhdl/public_html/Register/QR.php on line 13
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "Contact" in /home3/pragyhdl/public_html/Register/QR.php on line 14
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "noTM" in /home3/pragyhdl/public_html/Register/QR.php on line 15
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "Leader" in /home3/pragyhdl/public_html/Register/QR.php on line 16
+[15-Apr-2023 02:40:38 UTC] PHP Warning:  Undefined array key "Members" in /home3/pragyhdl/public_html/Register/QR.php on line 17
+[15-Apr-2023 02:40:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "Name" in /home3/pragyhdl/public_html/Register/QR.php on line 5
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "Surname" in /home3/pragyhdl/public_html/Register/QR.php on line 6
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "Age" in /home3/pragyhdl/public_html/Register/QR.php on line 7
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "Gender" in /home3/pragyhdl/public_html/Register/QR.php on line 8
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "City" in /home3/pragyhdl/public_html/Register/QR.php on line 9
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "District" in /home3/pragyhdl/public_html/Register/QR.php on line 10
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "College" in /home3/pragyhdl/public_html/Register/QR.php on line 11
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "Event" in /home3/pragyhdl/public_html/Register/QR.php on line 12
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "Email" in /home3/pragyhdl/public_html/Register/QR.php on line 13
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "Contact" in /home3/pragyhdl/public_html/Register/QR.php on line 14
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "noTM" in /home3/pragyhdl/public_html/Register/QR.php on line 15
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "Leader" in /home3/pragyhdl/public_html/Register/QR.php on line 16
+[15-Apr-2023 02:40:44 UTC] PHP Warning:  Undefined array key "Members" in /home3/pragyhdl/public_html/Register/QR.php on line 17
+[15-Apr-2023 02:40:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "Name" in /home3/pragyhdl/public_html/Register/QR.php on line 5
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "Surname" in /home3/pragyhdl/public_html/Register/QR.php on line 6
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "Age" in /home3/pragyhdl/public_html/Register/QR.php on line 7
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "Gender" in /home3/pragyhdl/public_html/Register/QR.php on line 8
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "City" in /home3/pragyhdl/public_html/Register/QR.php on line 9
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "District" in /home3/pragyhdl/public_html/Register/QR.php on line 10
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "College" in /home3/pragyhdl/public_html/Register/QR.php on line 11
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "Event" in /home3/pragyhdl/public_html/Register/QR.php on line 12
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "Email" in /home3/pragyhdl/public_html/Register/QR.php on line 13
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "Contact" in /home3/pragyhdl/public_html/Register/QR.php on line 14
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "noTM" in /home3/pragyhdl/public_html/Register/QR.php on line 15
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "Leader" in /home3/pragyhdl/public_html/Register/QR.php on line 16
+[15-Apr-2023 02:40:47 UTC] PHP Warning:  Undefined array key "Members" in /home3/pragyhdl/public_html/Register/QR.php on line 17
+[15-Apr-2023 02:40:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "Name" in /home3/pragyhdl/public_html/Register/QR.php on line 5
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "Surname" in /home3/pragyhdl/public_html/Register/QR.php on line 6
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "Age" in /home3/pragyhdl/public_html/Register/QR.php on line 7
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "Gender" in /home3/pragyhdl/public_html/Register/QR.php on line 8
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "City" in /home3/pragyhdl/public_html/Register/QR.php on line 9
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "District" in /home3/pragyhdl/public_html/Register/QR.php on line 10
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "College" in /home3/pragyhdl/public_html/Register/QR.php on line 11
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "Event" in /home3/pragyhdl/public_html/Register/QR.php on line 12
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "Email" in /home3/pragyhdl/public_html/Register/QR.php on line 13
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "Contact" in /home3/pragyhdl/public_html/Register/QR.php on line 14
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "noTM" in /home3/pragyhdl/public_html/Register/QR.php on line 15
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "Leader" in /home3/pragyhdl/public_html/Register/QR.php on line 16
+[15-Apr-2023 02:40:57 UTC] PHP Warning:  Undefined array key "Members" in /home3/pragyhdl/public_html/Register/QR.php on line 17
+[15-Apr-2023 02:40:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "Name" in /home3/pragyhdl/public_html/Register/QR.php on line 5
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "Surname" in /home3/pragyhdl/public_html/Register/QR.php on line 6
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "Age" in /home3/pragyhdl/public_html/Register/QR.php on line 7
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "Gender" in /home3/pragyhdl/public_html/Register/QR.php on line 8
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "City" in /home3/pragyhdl/public_html/Register/QR.php on line 9
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "District" in /home3/pragyhdl/public_html/Register/QR.php on line 10
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "College" in /home3/pragyhdl/public_html/Register/QR.php on line 11
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "Event" in /home3/pragyhdl/public_html/Register/QR.php on line 12
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "Email" in /home3/pragyhdl/public_html/Register/QR.php on line 13
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "Contact" in /home3/pragyhdl/public_html/Register/QR.php on line 14
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "noTM" in /home3/pragyhdl/public_html/Register/QR.php on line 15
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "Leader" in /home3/pragyhdl/public_html/Register/QR.php on line 16
+[15-Apr-2023 02:41:00 UTC] PHP Warning:  Undefined array key "Members" in /home3/pragyhdl/public_html/Register/QR.php on line 17
+[15-Apr-2023 02:41:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:41:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:42:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:42:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:42:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:42:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 02:43:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 04:43:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 04:46:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 04:46:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 04:46:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 04:46:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 09:54:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 09:54:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 09:55:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 09:55:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19
+[15-Apr-2023 19:55:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home3/pragyhdl/public_html/Register/QR.php:19
+Stack trace:
+#0 /home3/pragyhdl/public_html/Register/QR.php(19): mysqli_connect('localhost', 'root', '', 'Pragyaa')
+#1 {main}
+  thrown in /home3/pragyhdl/public_html/Register/QR.php on line 19

@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(43, 39, 39);
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 1em;
+  text-align: center;
+  justify-content: center;
+}
+.column {
+  width: 100%;
+  padding: 0.5em 0;
+  /* background-color: yellow; */
+  padding:54px;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3.5em;
+  color: #1f003b;
+}
+
+h1, h2{
+  color: white;
+}
+.card {
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+  padding: 3.5em 1em;
+  border-radius: 18em;
+  color: #1f003b;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #ffffff;
+}
+.card  .img-container_m {
+  width: 10em;
+  height: 10em;
+  background: linear-gradient(to right, pink,black, red 1px, rgba(90, 4, 114, 0.807) , rgb(194, 20, 194) 1px, purple, rgb(12, 12, 101));;
+  padding: 0.5em;
+  border-radius: 50%;
+  margin: 0 auto 2em auto;
+}
+
+.card  .img-container {
+  width: 10em;
+  height: 10em;
+  background-color: #a993ff;
+  padding: 0.5em;
+  border-radius: 50%;
+  margin: 0 auto 2em auto;
+}
+
+ .card .img-container_J { 
+  width: 10em;
+  height: 10em;
+  background-color: #a993ff; 
+  /*background: linear-gradient(to right, pink,black, red 1px, rgba(90, 4, 114, 0.807) , rgb(194, 20, 194) 1px, purple, rgb(12, 12, 101));;*/
+  padding: 0.5em;
+  border-radius: 50%;
+  margin: 0 auto 2em auto;
+}
+.card img {
+  width: 100%;
+  border-radius: 50%;
+}
+.card h3 {
+  font-weight: 500;
+}
+.card p {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0.5em 0 2em 0;
+  letter-spacing: 2px;
+}
+.icons {
+  width: 30%;
+  min-width: 125px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.card a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4em;
+}
+.card:hover {
+  background: #514c53;
+  color: #ffffff;
+  /* opacity: 1; */
+}
+.card:hover h3{
+  color: white;
+}
+
+
+.card:hover .img-container{
+  transform: scale(1.15);
+}
+
+.card:hover .img-container_J{
+  transform: scale(1.15);
+}
+
+
+.card:hover .img-container_m{
+  transform: scale(1.15);
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  section {
+    padding: 1em 7em;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em;
+  }
+  .card {
+    padding: 2.5em 1em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 22.33%;
+    padding: 0 1em;
+  }
+}
+
+/* 
+@media (max-width:994px){
+  #th_4{
+    background-color: yellow;
+  }
+} */
+
+
+
+
+
+
+.column .amey{
+  padding: 54px;
+}

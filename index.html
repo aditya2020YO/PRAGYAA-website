@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>PRAGYAA-2K23</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <!-- Favicons -->
+  <link href="assets/img/gallery/final_logo.png" rel="icon" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+    rel="stylesheet" />
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+
+    <style>
+    
+    @media(max-width:991px){
+        
+    .supporters_center{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    }
+    
+    
+      .main_div{
+        position:fixed;
+          width: 100vw;
+          height: 100vh;
+          top:0;
+          left:0;
+          background-color: #000;
+          display: grid;
+          place-items: center;
+          z-index: 999999;
+      }
+      
+      .center_div{
+          width: 15rem;
+          height: 15rem;
+          position: relative;
+          /* background-color: #fff; */
+      /* display: grid;
+      place-items: center; */
+      
+      
+      
+      }
+      
+      .rot{
+          width: 15rem;
+          height: 15rem;
+          position: absolute;
+          border-right: 0.6rem solid rgb(125, 17, 141);
+      border-radius: 50%;
+      animation: rot 2s linear infinite;
+      }
+      
+      
+      @keyframes rot {
+          0%{
+              transform: rotate(0deg);
+          }
+          100%{
+              transform: rotate(360deg);
+          }
+          
+      }
+      
+      .img_preload{
+          height: 139px;
+          background-color: white;
+          border-radius: 50%;
+      }
+      
+      
+      
+      .img_preload{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #fff;
+      }
+    </style>
+
+    <body onDOMContentLoaded="preload_go()">
+
+
+
+      <div class="main_div">
+        <div class="center_div">
+            <div class="rot"></div>
+            <img class="img_preload" src="./assets/img/final_logo_preloader.png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container-fluid container-xxl d-flex align-items-center">
+      <div id="logo" class="me-auto">
+        <a href="index.html" class="scrollto navbar-brand pragya-font"><img src="assets/img/pragyaa_logo.png" alt="logo"
+            title="" id="plogo" />
+          <img src="assets/img/Pragyaa_batman.png" alt="name" style="height: 30px;" />
+          <!-- Pragyaa 2023 -->
+        </a>
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
+          <li><a class="nav-link scrollto" href="#about">ABOUT US</a></li>
+          <li><a class="nav-link scrollto" href="#schedule">SCHEDULE</a></li>
+          <li><a class="nav-link scrollto" href="#speakers">GUESTS</a></li>
+          <li>
+            <a class="nav-link scrollto" href="./team/index1.html">TEAM</a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="./event/events.html">EVENTS</a>
+          </li>
+          <li><a class="nav-link scrollto" href="./index.html/#gallery">GALLERY</a></li>
+          <li>
+            <a class="nav-link scrollto" href="./index.html/#supporters">SPONSORS</a>
+          </li>
+          
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a href="#">Drop Down 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="#">Deep Drop Down 1</a></li>
+                <li><a href="#">Deep Drop Down 2</a></li>
+                <li><a href="#">Deep Drop Down 3</a></li>
+                <li><a href="#">Deep Drop Down 4</a></li>
+                <li><a href="#">Deep Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li><a href="#">Drop Down 3</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+          </ul>
+        </li> -->
+          <li><a href="./index.html/#faq" class="nav-link scrollto">FAQ's</a></li>
+          <li><a class="nav-link scrollto" href="./index.html/#contact">CONTACT</a></li>
+          
+                              <li> <a  class="make_glow_hero_a" href="#">
+                            <button onclick="alert_warning()" id="header_register_btn" type="button"
+                                class="btn btn-outline-primary make_glow_hero centre">Register Now </button></a>
+                    </li>
+          <!-- <li><a class="make_glow_hero_a" ================================================
+            href="./Register/QRForm.html">
+            <button id="header_register_btn"type="button" class="btn btn-outline-primary make_glow_hero centre">Register Now </button></a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+
+    <video autoplay muted loop id="myvideo">
+      <source src="assets\img\videoplayback.webm">
+    </video>
+
+    <!-- <img src="assets/img/wall.jpg" alt="background" id="myvideo"/> -->
+
+    <div class="hero_to_centre" style="align-content: center;">
+
+
+
+      <div class="hero-container navbar-brand pragya-font" data-aos="zoom-in" data-aos-delay="100">
+  
+        <h1 class="mb-4 pb-0  ">
+          <img src="assets/img/pragyaa_logo.png" class="img-fluid" id="plogo" style="height: 7.5rem" />
+  
+        </h1>
+        <h1 class="mb-4 pb-0  ">
+          <img src="assets/img/Pragyaa_batman.png" alt="name" style="height: 55px;" />
+  
+        </h1>
+  
+        <p class="p_tag" style="font-family:  'Algerian', 'Poppins'; font-weight: bold; font-size: 45px;">"TechXo"</p>
+        <p class="p_tag" style="font-family: poppins;  font-weight: bold; font-size: 24px;">"Bring your Ideas To Life"</p>
+        <p class="p_tag" style="font-family: poppins; font-weight: bold; font-size: 24px;"> #LetsBeginTechTour</p>
+        <p class="mb-4 pb-0 p_tag" style="font-family: poppins; "> 15th, 16th and 17th April Nanded, Maharashtra</p>
+        <!--<a href="https://www.youtube.com/watch?v=BvTKjdDgye0" class="glightbox play-btn mb-4"></a>-->
+        <a href="https://www.youtube.com/watch?v=bTeTW5D4Kkw" class="glightbox play-btn mb-4"></a>
+        
+        
+      <!--  <a class="make_glow_hero_a"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSd4MWMNrxsLdvZujxpQoT0fea7jCTx09f5rg2JRdmRPX7Bo8w/viewform?usp=sf_link"
+          target="_blank">
+          <button type="button" class="btn btn-outline-primary make_glow_hero centre">Register Now </button><img
+            class="svg_hero_arrow" style="font-size: 10px;" src="assets/img/arrow-right-circle-svgrepo-com (1).svg"
+            alt=""></a>-->
+            
+              <a onclick="alert_warning()" class="make_glow_hero_a"
+          href="#">
+          <button id="header_register_btn"type="button" class="btn btn-outline-primary make_glow_hero centre" style="font-size:20.1px">Register Now </button></a>
+
+
+      </div>
+      
+    </section>
+  </div>
+  <!-- End Hero Section -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" name="about1">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 about_content_">
+            <h2>About Us :</h2>
+            <p>
+              PRAGYAA is a national-level technical fiesta organized every year by SGGSIE&T, Nanded, to provide a platform for students to showcase their excellence in techno-social competitions. Each year, we work on a constructive theme focused on the welfare of society and technology. Students participate in large numbers in a multitude of events, ranging from brainstorming for junior scientists to bewildering robotics, and get a chance to delve into a variety of exhibits. Our aim is to focus on excellence in technology for human welfare and add a new dimension to the success of our extravaganza every year, so that it will reach the height of its glory.
+            </p>
+
+            
+            <button type="button" class="btn btn-outline-primary make_glow_hero2 make_glow_hero">
+              <a class="make_glow_hero_a"
+            href="https://www.sggs.ac.in/">Visit our College Website</a>
+            </button>
+            <a class="make_glow_hero_a"
+              href="https://www.sggs.ac.in/"></a>
+
+
+          </div>
+          <!-- <div class="col-lg-3">
+              <h3>What we do</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                distinctio neque in veniam blanditiis! Vel provident
+                consequuntur, asperiores ad et reiciendis, deleniti soluta
+                explicabo aliquid, repellendus hic vitae aspernatur ipsum.
+              </p>
+            </div> -->
+          <div class="col-lg-6" style="height: 19rem;">
+            <!-- <h3>When</h3>
+            <p>Saturday to Monday<br />30 April - 2 May</p> -->
+
+            <h1>
+              <a style="color:white; font-weight: bold;" href="" class="typewrite" data-period="2000"
+                data-type='["15th - 17th April 2023"]'>
+                <span class="wrap">lll</span>
+              </a>
+            </h1>
+
+
+            <h3>Where ?</h3>
+            <p>
+              <b>Shri Guru Gobind Singhji Institute of Engineering and
+                Technology</b><br />Vishnupuri, Nanded
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: white">Event Schedule</h2>
+          <p>Here is our event schedule</p>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Day 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">Day 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Day 3</a>
+          </li>
+        </ul>
+
+        <!-- <h3 class="sub-heading">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia distinctio nobis
+          illum labore ad ipsam a officia exercitationem et sed.</h3> -->
+<!-- ----------------------------------------------------------------------------------------------------- -->
+        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <!-- Schdule Day 1 -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+            <div class="row schedule-item">
+              <!-- <div class="col-md-2"><time>10:30 AM</time></div> -->
+              <div class="col-md-10">
+                <div style="overflow-x:scroll">
+                <table cellpadding="8" cellspacing="3" width="100%">
+                  <thead >
+                    <tr>
+                      <th style="width:25%; font-size: 1.4rem;">Event Category</th>
+                      <th style="width:25%; font-size: 1.4rem;">Event</th>
+                      <th style="width:25%; font-size: 1.4rem;">Time </th>
+                      <th style="width:25%; font-size: 1.4rem;">Venue</th>
+                    </tr>
+                  </thead>
+                  <tbody >
+                    <tr>
+                      <td>INAUGURATION CEREMONY</td>
+                      <td> </td>
+                      <td>11:00 AM- 01: 00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>CODESTER</td>
+                      <td>HACKTHON</td>
+                      <td>From 08:00 PM to 08:00 AM </td>
+                      <td>CSE-LABS</td>
+                    </tr>
+                    <tr>
+                      <td>CODESTER</td>
+                      <td>THE CODING CHAOS</td>
+                      <td>02:00 PM ONWARDS </td>
+                      <td>CSE-LABS</td>
+                    </tr>
+                    <tr>
+                      <td>ELECHROMA</td>
+                      <td>DRINK AND GLOW</td>
+                      <td>02:30 PM-04:30 PM</td>
+                      <td>Ele & Instru. Dept.</td>
+                    </tr>
+                    <tr>
+                      <td>TEXPLORER</td>
+                      <td>Paper Presentation</td>
+                      <td>02:00 PM</td>
+                      <td>Textile Classroom</td>
+                    </tr>
+                    <tr>
+                      <td>CHEMTREK</td>
+                      <td>C-VEHICILE</td>
+                      <td>02:00 PM ONWARDS</td>
+                      <td>CH-2</td>
+                    </tr>
+                    <!--<tr>-->
+                    <!--  <td>FUN</td>-->
+                    <!--  <td>FETE GAMES</td>-->
+                    <!--  <td>11:00 AM ONWARDS</td>-->
+                    <!--  <td>PMC</td>-->
+                    <!--</tr>-->
+                    <tr>
+                      <td>FUN</td>
+                      <td>HOLLY QUIZ</td>
+                      <td>01:00 PM ONWARDS</td>
+                      <td>INSTRU HALL</td>
+                    </tr>
+                    <tr>
+                      <td>CREATIVE</td>
+                      <td>MATHEMAGIC AND MATHEHOLIC</td>
+                      <td>11:00 AM- 05:00 PM</td>
+                      <td>AB6,AB4CLASS ROOM</td>
+                    </tr>
+                    <tr>
+                      <td>GAMING</td>
+                      <td>VR ARENA</td>
+                      <td>10:00 AM ONWARDS</td>
+                      <td>IT CLASSROOM</td>
+                    </tr>
+                    <tr>
+                      <td>GAMING</td>
+                      <td>COD</td>
+                      <td>02:00 PM - 05:00 PM</td>
+                      <td>IT CLASSROOM</td>
+                    </tr>
+                    <tr>
+                      <td>CREATIVE</td>
+                      <td>COLLEGE CAMPUS VLOG</td>
+                      <td>11:00 AM ONWARDS EVERYDAY SUBMISSION AT 05:00 PM</td>
+                      <td>A3 COMPLEX FOR THE DAY</td>
+                    </tr>
+                    <!--<tr>-->
+                    <!--  <td>CENFEST</td>-->
+                    <!--  <td>CLASH OF CONCRETE</td>-->
+                    <!--  <td>02:00 PM -04:00 PM</td>-->
+                    <!--  <td>CT LAB</td>-->
+                    <!--</tr>-->
+                  </tbody>
+                </table>
+              </div>
+                <!-- <h3><i>   Coming soon...</i></h3> -->
+                <!-- <p>
+                  On the spot registration will start on above time.<br>
+                  Location :- At Bus Parking(Infront of Admin Building).
+                </p> -->
+              </div>
+            </div>
+
+           
+          </div>
+          <!-- End Schdule Day 1 -->
+
+          <!-- Schdule Day 2 -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-2">
+            <div class="row schedule-item">
+              <div class="col-md-10">
+                <div style="overflow-x:scroll">
+               <table cellpadding="7" cellspacing="3" width="100%">
+                <thead >
+                  <tr>
+                    <th style="width:25%; font-size: 1.4rem;">Event Category</th>
+                    <th style="width:25%; font-size: 1.4rem;">Event</th>
+                    <th style="width:25%; font-size: 1.4rem;">Time </th>
+                    <th style="width:25%; font-size: 1.4rem;">Venue</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>CENFEST</td>
+                    <td>BRIDGE DESIGNING</td>
+                    <td>02:00 PM- 05:00 PM</td>
+                    <td>CE-1</td>
+                  </tr>
+                  <tr>
+                    <td>CODESTER</td>
+                    <td>THE CODE COMBAT </td>
+                    <td>11:00 AM- 02: 00 PM</td>
+                    <td>CSE-LABS</td>
+                  </tr>
+                  <tr>
+                    <td>ELECHROMA</td>
+                    <td>CIRCUITUAL DILEMMA</td>
+                    <td>12:00 PM-04:00 PM</td>
+                    <td>Elec. & Instru. Dept.</td>
+                  </tr>
+                  <tr>
+                    <td>TEXPLORER</td>
+                    <td>TEX-QUIZ</td>
+                    <td>11:00 AM- 02:00 PM</td>
+                    <td>TEXTILE CLASSROOM</td>
+                  </tr>
+                  <tr>
+                    <td>CHEMTREK</td>
+                    <td>HUSTLE CHEMIST (CHEMOBOSS)</td>
+                    <td>10:00 AM- 05:00 PM</td>
+                    <td>CH-2,CHEMICAL DEPT</td>
+                  </tr>
+                  <tr>
+                    <td>FUN</td>
+                    <td>FETE GAMES </td>
+                    <td>11:00 AM Onwards</td>
+                    <td>PMC</td>
+                  </tr>
+                  <tr>
+                    <td>CREATIVE</td>
+                    <td>STARK TANK SGGS</td>
+                    <td>12:00 AM - 06:00 PM</td>
+                    <td>A4 COMPLEX</td>
+                  </tr>
+                  <tr>
+                    <td>CREATIVE</td>
+                    <td>MOCK-PLACEMENT</td>
+                    <td>11 AM Onwards</td>
+                    <td>A4 Complex Hall, INSTRU HALL</td>
+                  </tr>
+                  <tr>
+                    <td>CREATIVE</td>
+                    <td>IPL-AUCTION</td>
+                    <td>11 AM ONWARDS</td>
+                    <td>A4 Complex Hall</td>
+                  </tr>
+                  <tr>
+                    <td>GAMING</td>
+                    <td>VR ARENA </td>
+                    <td>10:00 AM ONWARDS</td>
+                    <td>IT CLASSROOM</td>
+                  </tr>
+                  <tr>
+                    <td>GAMING</td>
+                    <td>VALORANT</td>
+                    <td>12:00 - 03:00</td>
+                    <td>IT LABS -OS LAB</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- End Schdule Day 2 -->
+
+          <!-- Schdule Day 3 -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade" id="day-3">
+            <div class="row schedule-item">
+              <!-- <div class="col-md-2"><time>10:00 AM</time></div> -->
+              <div class="col-md-10">
+                <!-- <div class="speaker">
+                    <img src="assets/img/" alt="Event" />
+          </div> -->
+          <div style="overflow-x:scroll">
+          <table cellpadding="7" cellspacing="3" width="100%">
+            <thead >
+              <tr>
+                <th style="width:25%; font-size: 1.4rem;">Event Category</th>
+                <th style="width:25%; font-size: 1.4rem;">Event</th>
+                <th style="width:25%; font-size: 1.4rem;">Time </th>
+                <th style="width:25%; font-size: 1.4rem;">Venue</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!--<tr>-->
+              <!--  <td>CENFEST</td>-->
+              <!--  <td>MINIATURE MODEL MAKING </td>-->
+              <!--  <td>11:30 Onwards</td>-->
+              <!--  <td>Alongside of textile dept</td>-->
+              <!--</tr>-->
+              <!--<tr>-->
+              <!--  <td>CENFEST</td>-->
+              <!--  <td>CLASH OF CONCRETE</td>-->
+              <!--  <td>11:30 Onwards</td>-->
+              <!--  <td>CT lab</td>-->
+              <!--</tr>-->
+              <tr>
+                <td>CODESTER</td>
+                <td>THE LAST PROGRAMMER STANDING </td>
+                <td>11:00 AM- 02: 00 PM</td>
+                <td>CSE-LABS</td>
+              </tr>
+              <tr>
+                <td>ELECHROMA</td>
+                <td>EXPLORE YOUR INNOVATION AND ART</td>
+                <td>11:00 AM ONWARDS</td>
+                <td>ELEC & INSTRU DEPT</td>
+              </tr>
+              <tr>
+                <td>TEXPLORER</td>
+                <td>STYLE YOUR PARTNER </td>
+                <td>11:00 AM- 04:00 PM</td>
+                <td>TEXTILE PATH</td>
+              </tr>
+              <tr>
+                <td>FUN</td>
+                <td>FETE GAMES</td>
+                <td>11:00 AM ONWARDS</td>
+                <td>PMC</td>
+              </tr>
+              <tr>
+                <td>CREATIVE</td>
+                <td>MOCK PLACEMENT </td>
+                <td>11:00 AM</td>
+                <td>A3 COMPLEX</td>
+              </tr>
+              <tr>
+                <td>CREATIVE</td>
+                <td>JUNIOR SCIENTIST</td>
+                <td>11 AM ONWARDS</td>
+                <td>Both Lawn in front of A Complex</td>
+              </tr>
+              <tr>
+                <td>GAMING</td>
+                <td>SMASH CART</td>
+                <td>12:00 AM- 03:00 PM</td>
+                <td>IT CLASSROOM</td>
+              </tr>
+              <!--<tr>-->
+              <!--  <td>ROBOTICS</td>-->
+              <!--  <td>AQUAHUNT</td>-->
+              <!--  <td>10:00 AM - 01:00 PM</td>-->
+              <!--  <td>Directer Lawn</td>-->
+              <!--</tr>-->
+              <!--<tr>-->
+              <!--  <td>ROBOTICS</td>-->
+              <!--  <td>ROBO SOCCER </td>-->
+              <!--  <td>01:00 PM - 05:00 PM</td>-->
+              <!--  <td>Instru Dept Arena Area</td>-->
+              <!--</tr>-->
+              <!--<tr>-->
+              <!--  <td>ROBOTICS</td>-->
+              <!--  <td>ROBO SUMO</td>-->
+              <!--  <td>10:00 AM - 02:00 PM</td>-->
+              <!--  <td>Admin Ground Floor</td>-->
+              <!--</tr>-->
+            </tbody>
+          </table>
+          </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- End Schdule Day 3 -->
+   
+        </div>
+      </div>
+    </section>
+    <!-- End Schedule Section -->
+
+    <!-- ======= Speakers Section ======= -->
+    <section id="speakers">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: white">Event Guest</h2>
+          <p>Here are some of our speakers</p>
+        </div>
+
+    <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+              <!-- <img src="assets/img/nehamalik1.jpg" alt="Speaker 1" class="img-fluid" /> -->
+              <img  src="assets/img/ajinkya_dhariya.webp" alt="Speaker 1" class="img-fluid" />
+              <div class="details">
+                <h3><a href="speaker-details.html">Ajinkya Dhariya</a></h3>
+                <!-- <p>Quas alias incidunt</p> -->
+                <div class="social">
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a> -->
+
+                    <p>Founder and CEO at PadCare Labs Pvt. Ltd</p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+ <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+              <!-- <img src="assets/img/nehamalik1.jpg" alt="Speaker 1" class="img-fluid" /> -->
+              <img  src="assets/img/second_guest (1).webp" alt="Speaker 1" class="img-fluid" />
+              <div class="details">
+                <h3><a href="speaker-details.html">Sunil Raithatha</a></h3>
+                <!-- <p>Quas alias incidunt</p> -->
+                <div class="social">
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a> -->
+
+                    <p>Owner and Managing Director of Vinodrai Engineers Pvt. Ltd</p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+    </div>
+    
+    
+    
+    
+    
+      </div>
+    </section>
+    <!-- End Speakers Section -->
+
+    <!-- ======= Hotels Section ======= -->
+    <!-- <section id="Events" class="section-with-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header">
+            <h2>Events</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-4 col-md-6">
+              <div class="hotel">
+                <div class="hotel-img">
+                  <img
+                    src="assets/img/hotels/1.jpg"
+                    alt="event 1"
+                    class="img-fluid"
+                  />
+                </div>
+                <h3><a href="#">Event 1</a></h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="hotel">
+                <div class="hotel-img">
+                  <img
+                    src="assets/img/hotels/2.jpg"
+                    alt="event 2"
+                    class="img-fluid"
+                  />
+                </div>
+                <h3><a href="#">Event 2</a></h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="hotel">
+                <div class="hotel-img">
+                  <img
+                    src="assets/img/hotels/3.jpg"
+                    alt="event 3"
+                    class="img-fluid"
+                  />
+                </div>
+                <h3><a href="#">Event 3</a></h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    <!-- End Hotels Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: white">Previous Glimpses</h2>
+          <!-- <p>Check our gallery from the recent events</p> -->
+        </div>
+      </div>
+
+      <div class="gallery-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide">
+            <a href="assets/img/gallery/pre1 (1).jpg" class="gallery-lightbox"><img
+                src="assets/img/gallery/pre1 (1).jpg" class="img-fluid  ig" alt="" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="assets/img/gallery/pre1 (2).JPG" class="gallery-lightbox"><img
+                src="assets/img/gallery/pre1 (2).JPG" class="img-fluid ig" alt="" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="assets/img/gallery/pre1 (3).JPG" class="gallery-lightbox"><img
+                src="assets/img/gallery/pre1 (3).JPG" class="img-fluid ig" alt="" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="assets/img/gallery/4.jpg" class="gallery-lightbox"><img src="assets/img/gallery/c11.jpeg"
+                class="img-fluid ig" alt="" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="assets/img/gallery/5.jpg" class="gallery-lightbox"><img src="assets/img/gallery/c5.jpeg"
+                class="img-fluid ig" alt="" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="assets/img/gallery/c6.jpeg" class="gallery-lightbox"><img src="assets/img/gallery/c6.jpeg"
+                class="img-fluid ig" alt="" /></a>
+          </div>
+          <!--<div class="swiper-slide">
+            <a href="assets/img/gallery/7.jpg" class="gallery-lightbox"><img src="assets/img/gallery/c11.jpeg"
+                class="img-fluid ig" alt="" /></a>
+          </div>
+          <div class="swiper-slide">
+            <a href="assets/img/gallery/c11.jpeg" class="gallery-lightbox"><img src="assets/img/gallery/c11.jpeg"
+                class="img-fluid ig" alt="" /></a>
+          </div> -->
+        </div>
+
+        <!-- ///////////////////////////////add -->
+        <div class="swiper-button-next swiper-navBtn" id="swiper_next"></div>
+        <div class="swiper-button-prev swiper-navBtn" id="swiper_prev"></div>
+        <!-- //////////////////////////////////added -->
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+
+    <!-- ======= Supporters Section ======= -->
+    <section id="supporters" class="section-with-bg">
+      <div class="container">
+        <div class="section-header">
+          <h2 style="color: white">Sponsors</h2>
+        </div>
+
+        <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="\assets\img\supporters\GodavariUrban bank.webp" class="img-fluid" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets\img\supporters\simarbakes and cakes.webp" class="img-fluid" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets/img/supporters/funzone.webp" class="img-fluid" alt="" />
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets\img\supporters\Screenshot 2023-03-25 000301.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+
+          <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+          <!--  <div class="supporter-logo">-->
+          <!--    <img src="assets/img/gallery/Logo jpg.png" class="img-fluid" alt="" />-->
+          <!--  </div>-->
+          <!--</div>-->
+
+          <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+          <!--  <div class="supporter-logo">-->
+          <!--    <img src="assets/img/gallery/taskade-circle-logo-full-black.png" class="img-fluid" alt="" />-->
+          <!--  </div>-->
+          <!--</div>-->
+
+          <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+          <!--  <div class="supporter-logo">-->
+          <!--    <img src="assets/img/gallery/maplesoft-logo_10957726.png" class="img-fluid" alt="" />-->
+          <!--  </div>-->
+          <!--</div>-->
+
+          <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+          <!--  <div class="supporter-logo">-->
+          <!--    <img src="assets/img/gallery/yocket-fb-share-og-image-removebg-preview (1).png" class="img-fluid"-->
+          <!--      alt="" />-->
+          <!--  </div>-->
+          <!--</div>-->
+
+          <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+          <!--  <div class="supporter-logo">-->
+          <!--    <img src="assets/img/gallery/1.png" class="img-fluid" alt="" />-->
+          <!--  </div>-->
+          <!--</div>-->
+          <!--<div class="col-lg-3 col-md-4 col-xs-6">-->
+          <!--  <div class="supporter-logo">-->
+          <!--    <img src="assets/img/gallery/3p- raj opt-2.jpg" class="img-fluid" alt="" />-->
+          <!--  </div>-->
+          <!--</div>-->
+          
+          <!--added-->
+          
+           <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets/img/supporters/blog adda.webp" class="img-fluid" alt="" />
+            </div>
+          </div>
+          
+          
+          
+         
+          
+          
+          
+          
+          
+            <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo" style="max-height:100%; widht:100%;">
+              <img src="assets/img/supporters/MaharastraGraminbank.webp" class="img-fluid" alt="" />
+            </div>
+          </div>
+          
+          
+          <!--  <div class="col-lg-3 col-md-4 col-xs-6">-->
+          <!--  <div class="supporter-logo">-->
+          <!--    <img src="assets/img/supporters/MY Fm 94.3.jpeg.webp" class="img-fluid" alt="" />-->
+          <!--  </div>-->
+          <!--</div>-->
+          
+          
+          
+             <div class="col-lg-3 col-md-4 col-xs-6 supporters_center">
+            <div class="supporter-logo" style="max-width:60%;">
+              <img src="assets/img/supporters/Give my Certificate.webp" class="img-fluid" alt="" />
+            </div>
+          </div>
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </section>
+    <!-- End Sponsors Section -->
+
+    <!-- =======  F.A.Q Section ======= -->
+    <section id="faq">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: white">F.A.Q</h2>
+        </div>
+
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-9">
+
+            <span id="faq_img"><img src="assets\img\question-mark.png" alt=""></span>
+            <ul class="faq-list">
+              <li>
+                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">
+                  What are the accommodation arrangements?
+
+                  <i class="bi bi-chevron-right icon-show"></i>
+
+                  <i class="bi bi-chevron-down icon-close"></i>
+                </div>
+                <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    For Boys Accommodation facilities are available at the SRTM University. The charges for the same will be Rs 100 per head per night And for girls Accommodation facilities are available at SGGS girls Hostel for free, for meal Rs 150 charged at Hostel Mess.
+                    
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">
+                  What is the exact location of the event? <i class="bi bi-chevron-right icon-show"></i><i
+                    class="bi bi-chevron-down icon-close"></i>
+                </div>
+                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    SGGS, Vishnupuri, Nanded, Maharashtra 431606.
+                    <span><a href="https://goo.gl/maps/FsRdAWPLqCWZjUun8"> how to reach</a></span>
+                  </p>
+
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">
+                  Is registration fee refundable? <i class="bi bi-chevron-right icon-show"></i><i
+                    class="bi bi-chevron-down icon-close"></i>
+                </div>
+                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    No
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">
+                  Is there any on the spot registration available ?
+                  <i class="bi bi-chevron-right icon-show"></i><i class="bi bi-chevron-down icon-close"></i>
+                </div>
+                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    Yes
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">
+                  what is arrangement of food ?<i class="bi bi-chevron-right icon-show"></i><i
+                    class="bi bi-chevron-down icon-close"></i>
+                </div>
+                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                  <p>
+                    You can buy it from College Mess and Canteen or outside campus Area too..!!
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- End  F.A.Q Section --> 
+
+    <!-- ======= Subscribe Section ======= -->
+    <!-- <section id="subscribe">
+      <div class="container" data-aos="zoom-in">
+        <div class="section-header">
+          <h2>College Ambassador</h2>
+          <p>become pragyaa's college ambassador</p>
+        </div>
+
+        <div class="row justify-content-center apply mx-auto">
+           <div class="col-lg-12 col-md-12 d-flex mx-auto text-center"> -->
+    <!-- <button type="submit" class="ms-2 mx-auto justify-center"><a href="https://forms.gle/zvfpiV3CFtz7ZQaQ7">Apply
+              Now</a></button>
+        </div>
+      </div>
+      </div>
+    </section>  -->
+    <!-- End Subscribe Section -->
+
+
+
+<!-- start map section -->
+
+
+  <div class="map_class_parent">
+    
+<div class="div_map">
+        <iframe class="map_class"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.898933433305!2d77.29223145!3d19.1120892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bce29f0b2e43199%3A0xe11b84ac3144b2b4!2sSGGS%2C%20Vishnupuri%2C%20Nanded%2C%20Maharashtra%20431606!5e0!3m2!1sen!2sin!4v1676293226115!5m2!1sen!2sin"
+            width="99.5%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            ></iframe>
+            <!-- referrerpolicy="no-referrer-when-downgrade" -->
+            <!--  -->
+          </div>
+
+    </div>
+
+
+
+<!-- end map section -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2 style="color: white">Contact Us</h2>
+          <!-- <p>For more contact us.</p> -->
+          <p>We are here for you.</p>
+        </div>
+
+        <div class="row contact-info">
+          <div class="col-md-4">
+            <!-- ///////////edited -->
+            <div class="contact-address">
+              <a href="https://goo.gl/maps/FsRdAWPLqCWZjUun8">
+
+                <i class="bi bi-geo-alt"></i>
+
+              </a>
+              <h3>Address</h3>
+              <a href="https://goo.gl/maps/FsRdAWPLqCWZjUun8">Shri Guru Gobind Singhji Institute of Engineering and
+                Technology (SGGSIET),Vishnupuri, Nanded</a></address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <a href="tel:+917977964873s">
+                <i class="bi bi-phone"></i>
+
+              </a>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+919604107346">9604107346</a><br><p style="color: white;">Student Joint Coordinator</p></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <a href="mailto:pragyaa@sggs.ac.in">
+                <i class="bi bi-envelope"></i>
+              </a>
+              <h3>Email</h3>
+              <p><a href="mailto:pragyaa@sggs.ac.in">pragyaa@sggs.ac.in</a></p>
+              <p><a href="mailto:technicalsecretary@sggs.ac.in">technicalsecretary@sggs.ac.in</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!--<div class="form">-->
+        <!--  <form action="forms/contact.php" method="post" role="form" class="php-email-form">-->
+        <!--    <div class="row">-->
+        <!--      <div class="form-group col-md-6">-->
+        <!--        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />-->
+                <!-- <label>Your Name</label> -->
+        <!--      </div>-->
+        <!--      <div class="form-group col-md-6 mt-3 mt-md-0">-->
+        <!--        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />-->
+                <!-- <label>Your Email</label> -->
+        <!--      </div>-->
+
+
+
+        <!--    </div>-->
+        <!--    <div class="form-group mt-3">-->
+        <!--      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />-->
+              <!-- <label>Subject</label> -->
+        <!--    </div>-->
+        <!--    <div class="form-group mt-3">-->
+        <!--      <textarea class="form-control aa" name="message" rows="5" id="textareamsg" placeholder="Message"-->
+        <!--        required></textarea>-->
+              <!-- <label>Message</label> -->
+        <!--    </div>-->
+        <!--    <div class="my-3">-->
+        <!--      <div class="loading">Loading</div>-->
+        <!--      <div class="error-message"></div>-->
+        <!--      <div class="sent-message">-->
+        <!--        Your message has been sent. Thank you!-->
+        <!--      </div>-->
+        <!--    </div>-->
+        <!--    <div class="text-center">-->
+        <!--      <button type="submit">Send Message</button>-->
+        <!--    </div>-->
+        <!--  </form>-->
+        <!--</div>-->
+      </div>
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <!-- <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 text-center footer-contact">
+              <div class="social-links">
+                <a href="https://twitter.com/sggspragyaa?t=kT3bgo-OZtOGWLAbxkgigg&s=08" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/sggspragyaa" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://instagram.com/sggspragyaa?utm_medium=copy_link" class="instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="https://youtube.com/channel/UCstfr9-SA5jZLrgaUR2NJJg" class="youtube"
+                  ><i class="bi bi-youtube"></i
+                ></a>
+                <a href="https://www.linkedin.com/in/pragyaa-sggs-647a341a0" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div>
+                <br>
+                <b class="pragya-font">Pragyaa 2022</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+
+
+
+  <!-- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddddddddddddeeeeeeeeeeeddddddd -->
+
+  <footer class="footer" id="footer">
+
+
+
+    <div class="container" id="f_cont">
+      
+      <div class="align-items-center row footer_to_shrink_whole">
+
+
+
+        <div class="footer_to_shrink">
+
+          <div size="12" class="footerLogo col-sm-6">
+            <img src="./assets/img/pragyaa_logo.png" alt="Logo" class="footerLogoimg1">
+            
+            <p class="footer_logo_text"> <b>Pragyaa 2023</b> </p>
+
+            <!-- <div id="footer_seperating_line"></div> -->
+
+            <!-- <img src="assets/img/sggs_logo.png" class="footerLogoimg2" alt=""> -->
+          </div>
+
+
+ 
+
+
+       
+
+          <div class="text-center text-sm-end col-sm-6" id="footer_cont_info">
+            <h4 style="text-align: left; color:white; font-weight: bolder;" class="fh4">Contact Info</h4>
+            <p class="footer_para1">SGGSIE&T <br>Vishnupuri, Nanded. <br><b>Phone:</b> 9604107346<br>
+              <strong>Email:&nbsp;</strong><a style="font-size:100%; margin-top: 0px;"
+                href="mailto:Pragyaa@sggs.ac.in">pragyaa@sggs.ac.in</a><br><a style="font-size:100%;"
+                href="mailto:Technicalsecretary@sggs.ac.in">technicalsecretary@sggs.ac.in</a>
+                <div class="footer_social_links">
+
+                  <a href="https://twitter.com/sggspragyaa?t=kT3bgo-OZtOGWLAbxkgigg&s=08">
+                    <i class="bi bi-twitter footer_social_class ftl1"></i>
+                  </a>
+                  <a href="https://www.facebook.com/sggspragyaa">
+                    <i class="bi bi-facebook footer_social_class ffl2"></i>
+                  </a>
+                  <a href="https://instagram.com/sggspragyaa?utm_medium=copy_link">
+                    <i class="bi bi-instagram footer_social_class fil3"></i>
+                  </a>
+                  <a href="https://youtube.com/channel/UCstfr9-SA5jZLrgaUR2NJJg">
+                    <i class="bi bi-youtube footer_social_class fyl4"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/pragyaa-sggs-647a341a0">
+                    <i class="bi bi-linkedin footer_social_class fll5"></i>
+                  </a>
+    
+                </div>
+            </p>
+
+            <p></p>
+
+          
+
+          </div>
+
+
+
+
+        </div>
+
+
+
+        <div style="color:white" size="12" class="footerClg col-sm-6" id="footer_clgname">
+          <h4 style="color:white; font-weight: bolder;" class="fh4">Shri Guru Gobind Singhji Institute of Engineering and Technology</h4>
+          <p >Shri Guru Gobind Singhji Institute of Engineering and Technology, Vishnupuri, Nanded(Maharashtra State)
+            INDIA PIN 431606.</p>
+        </div>
+
+
+
+
+
+
+
+
+
+      
+
+
+        <div size="12" class="text-center text-sm-end col-sm-6">
+          <div class="social-icon" id="si_f">
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div>
+
+          <hr>
+          <p class="copy_right_text">Copyright © PRAGYAA 2023 All rights reserved | This website is made<i
+              class="ti-heart" aria-hidden="true"></i> by
+            PRAGYAA-2023 WEB TEAM.</p>
+          <hr>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <script>
+
+    const demo = document.getElementById("header");
+
+
+    window.onscroll = function () { change() };
+
+    function change() {
+      if (document.body.scrollTop > 684 || document.documentElement.scrollTop > 684) {
+        demo.style.backgroundColor = 'rgba(0, 0, 0, 0.87)';
+        demo.style.opacity = 1;
+      }
+
+      else if (document.body.scrollTop < 684 || document.documentElement.scrollTop < 684) {
+        demo.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+        demo.style.documentElement.opacity = 1;
+        demo.style.body.opacity = 0;
+      }
+
+
+      else {
+        demo.style.backgroundColor = 'grey';
+        demo.style.opacity = '0.8';
+        // demo.style.zIndex='200';
+      }
+    }
+
+    /////////////////////////////////////////////////////////////////footer
+
+    const ele = document.querySelectorAll(".footer_social_class");
+
+    // ele[2].addEventListener('mouseover', ()=>{
+    //   ele[2].style.backgroundColor="red";
+    // })
+
+
+    for (let i = 0; i < ele.length; i++) {
+      ele[i].addEventListener("mouseover", () => {
+        if (ele[i].classList.contains("ftl1")) {
+          ele[i].style.backgroundColor = " #00acee";
+        }
+        else if (ele[i].classList.contains("ffl2")) {
+          ele[i].style.backgroundColor = "#3b5998";
+        } else if (ele[i].classList.contains("fil3")) {
+          // ele[i].style.backgroundColor="";
+          ele[i].style.background =
+            "linear-gradient(to top, #feda75, #fa7e1e, #d62976,  #962fbf, #4f5bd5)";
+        } else if (ele[i].classList.contains("fyl4")) {
+          ele[i].style.backgroundColor = "#FF0000";
+        } else {
+          ele[i].style.backgroundColor = "#0A66C2";
+        }
+      })
+
+      ele[i].addEventListener("mouseout", () => {
+        if (ele[i].classList.contains("ftl1")) {
+          ele[i].style.backgroundColor = "hsla(0,0%,100%,.5)";
+        }
+        else if (ele[i].classList.contains("ffl2")) {
+          ele[i].style.backgroundColor = "hsla(0,0%,100%,.5)";
+        } else if (ele[i].classList.contains("fil3")) {
+          ele[i].style.background = "hsla(0,0%,100%,.5)";
+        } else if (ele[i].classList.contains("fyl4")) {
+          ele[i].style.backgroundColor = "hsla(0,0%,100%,.5)";
+        } else {
+          ele[i].style.backgroundColor = "hsla(0,0%,100%,.5)";
+        }
+      })
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////footer
+  </script>
+
+
+  <!-- ///////////////////////////////////////////////////////////////////typewriter -->
+  <script>
+
+    var TxtType = function (el, toRotate, period) {
+      this.toRotate = toRotate;
+      this.el = el;
+      this.loopNum = 0;
+      this.period = parseInt(period, 10) || 2000;
+      this.txt = '';
+      this.tick();
+      this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function () {
+      var i = this.loopNum % this.toRotate.length;
+      var fullTxt = this.toRotate[i];
+
+      if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+      } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+      }
+
+      this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+      var that = this;
+      var delta = 200 - Math.random() * 100;
+
+      if (this.isDeleting) { delta /= 2; }
+
+      if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+      } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+      }
+
+      setTimeout(function () {
+        that.tick();
+      }, delta);
+    };
+
+    window.onload = function () {
+      var elements = document.getElementsByClassName('typewrite');
+      for (var i = 0; i < elements.length; i++) {
+        var toRotate = elements[i].getAttribute('data-type');
+        var period = elements[i].getAttribute('data-period');
+        if (toRotate) {
+          new TxtType(elements[i], JSON.parse(toRotate), period);
+        }
+      }
+      // INJECT CSS
+      var css = document.createElement("style");
+      css.type = "text/css";
+      css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+      document.body.appendChild(css);
+    };
+
+
+    let  loade=document.querySelector(".main_div");
+  // load.style.display=none;
+  window.addEventListener("load", function(){
+    loade.style.display="none";
+  })
+
+
+
+
+function alert_warning(){
+    alert("Registration has been closed");
+}
+
+
+  </script>
+
+
+
+
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////typewriter -->
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
