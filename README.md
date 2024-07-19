@@ -1,5 +1,5 @@
 # Pragyaa 2023 Website
-
+## Here is the link of live website- https://pragyaa2023site.vercel.app/
 Welcome to the GitHub repository for the Pragyaa 2023 website! This repository contains the source code and files for the official website of Pragyaa, a national-level technical event held annually at Shri Guru Gobind Singh Ji Institute of Engineering and Technology,Vishnupuri,Nanded,431606.
 
 ## About Pragyaa
